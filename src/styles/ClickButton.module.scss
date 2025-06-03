@@ -1,0 +1,13 @@
+.btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #00b4ff, #0069ed);
+  color: #fff;
+  cursor: pointer;
+  transition: filter 0.2s;
+  &:hover {
+    filter: brightness(1.1);
+  }
+}
